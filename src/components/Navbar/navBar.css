@@ -1,0 +1,53 @@
+:root {
+  --main-color: #ff4b44;
+  --second-color: #adf153;
+  --third-color: #ff4b44;
+  --maing-bg: linear-gradient(#2b2b3a, #573e58);
+  --second-bg: #ff4a4460;
+  --main-boder: solid #ff4b44 1px;
+}
+
+.navbarContainer{
+  display: flex;
+  align-items: center;
+}
+
+.navItem {
+  color: var(--main-color);
+  font-size: 0.8rem;
+  font-weight: 200;
+  border-radius: 0.2rem;
+  display: block !important;
+  padding: 0.5rem;
+  margin: 0 0.3rem;
+}
+
+.navItem:hover {    
+  background-color: var(--second-color);    
+  color: var(--main-color);
+  transition: 0.3s;    
+}
+
+.hamburgerIcon {
+  filter: invert(50%) sepia(23%) saturate(7259%) hue-rotate(332deg) brightness(96%) contrast(111%);    
+  position: fixed;
+  top: 1rem;
+  right: 1rem;  
+  margin: 0.2rem;
+}
+
+
+@media screen and (max-width: 768px) {
+  .navbarContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    margin-top: 2rem;  
+  }
+
+  .navItem {
+    padding: 0.2rem;
+    margin: 0;
+  }
+
+}

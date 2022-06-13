@@ -1,0 +1,69 @@
+:root {
+  --main-color: #ff4b44;
+  --second-color: #adf153;
+  --third-color: #ff4b44;
+  --main-bg: linear-gradient(#2b2b3a, #573e58);
+  --second-bg: #ff4a4460;
+  --main-boder: solid (var(--main-color)) 1px;
+}
+
+.homeContainer {   
+  color: var(--main-color);
+}
+
+.mainText h1 {
+  font-size: 3.75rem;
+  font-weight: 100;
+  line-height: 4rem;
+}
+.mainText h1 div {
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+#logo img {
+  animation-name: efecto_logo;  
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-delay: 2s
+}
+
+.carrouselImg {
+  height: 400px;
+  object-fit: cover;
+  transition: all 0.5s ease-in-out;
+}
+
+@keyframes efecto_logo {
+  0%{transform: scale(1);}
+  20%{transform: rotate(5deg);}
+  40%{transform: rotate(-5deg);}
+  60%{ transform: scale(1);}
+  80%{transform: scale(1.05);}  
+  100%{transform: scale(1);}  
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px)  {
+  .mainText h1 {
+    font-size: 2.8rem;
+    font-weight: 100;  
+  }
+  .mainText h1 div {
+    font-size: 3.85rem;
+    font-weight: 900;  
+  }
+
+}
+
+
+@media screen and (max-width: 767px) {
+  .mainText h1 {
+    font-size: 2rem;
+    font-weight: 100;
+  }
+  .mainText h1 div {
+    font-size: 2.7rem;
+    font-weight: 700; 
+  }
+
+}
