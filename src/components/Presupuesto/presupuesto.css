@@ -1,0 +1,30 @@
+:root {
+  --main-color: #ff4b44;
+  --second-color: #adf153;
+  --third-color: #ff4b44;
+  --main-bg: linear-gradient(#2b2b3a, #573e58);
+  --second-bg: #ff4a4460;
+  --main-boder: solid (var(--main-color)) 1px;
+}
+
+.formCabecera{
+  margin: 0 auto;
+}
+
+.formCabecera h1{
+  font-size: 3.75rem;
+  font-weight: 100;
+  line-height: 4rem;
+}
+
+.formulario {
+  border: solid #ff4b44 1px; 
+  margin: 0 auto;
+  background-color: var(--second-bg); 
+  padding: 1rem;
+}
+
+.formulario legend strong {
+  font-size: 1.5rem;
+  font-weight: 400;
+}

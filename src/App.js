@@ -6,6 +6,7 @@ import Home from './components/Home/Home';
 import Footer from './components/Footer/Footer';
 import Galeria from './components/Galeria/Galeria';
 import SubGaleriaContainer from './components/SubGaleria/SubGaleriaContainer';
+import Presupuesto from './components/Presupuesto/Presupuesto';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/home' element={<Home/>} />  
           <Route path='/galeria' element={<Galeria/>} />  
           <Route path='/galeria/:galery' element={<SubGaleriaContainer/>} />  
+          <Route path='/presupuesto' element={<Presupuesto/>} />  
         </Routes>
         <Footer/>
       </BrowserRouter>

@@ -14,7 +14,6 @@
   cursor: pointer;
   border: solid transparent 1px;
   transition: all 0.2s ease-in-out;
-
 }
 
 .galeryImg:hover {    
@@ -69,8 +68,7 @@
 .botonVolver {
   width: 10rem;
   margin: 1rem auto;
-  border-radius: 5px;
-  
+  border-radius: 5px;  
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
