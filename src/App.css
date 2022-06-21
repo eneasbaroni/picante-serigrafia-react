@@ -12,15 +12,16 @@
 * {
   list-style: none;  
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-size: 16px;  
   margin: 0;
   padding: 0;  
   box-sizing: border-box;
+  color: var(--main-color);
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: var(--main-color);
 }
 
 a:hover {
@@ -32,7 +33,7 @@ p, label, input, .form-control {
   margin: 0;                         
   padding: 0;
   text-align: justify;
-  font-weight: 200;
+  font-weight: 300;  
 }
 
 @media screen and (min-width: 768px){

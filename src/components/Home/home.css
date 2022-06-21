@@ -7,9 +7,6 @@
   --main-boder: solid (var(--main-color)) 1px;
 }
 
-.homeContainer {   
-  color: var(--main-color);
-}
 
 .mainText h1 {
   font-size: 3.75rem;
@@ -29,7 +26,7 @@
 }
 
 .carrouselImg {
-  height: 400px;
+  height: 600px;
   object-fit: cover;
   transition: all 0.5s ease-in-out;
 }
@@ -43,7 +40,7 @@
   100%{transform: scale(1);}  
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px)  {
+@media screen and  (max-width: 1023px)  {
   .mainText h1 {
     font-size: 2.8rem;
     font-weight: 100;  
@@ -53,13 +50,23 @@
     font-weight: 900;  
   }
 
+  .carrouselImg {
+    height: 400px;    
+  }  
+
 }
 
 
 @media screen and (max-width: 767px) {
+  .homeContainer p {
+    text-align: center;
+  }
+
   .mainText h1 {
     font-size: 2rem;
     font-weight: 100;
+    line-height: 3rem;
+    text-align: center;
   }
   .mainText h1 div {
     font-size: 2.7rem;

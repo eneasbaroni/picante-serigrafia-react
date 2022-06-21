@@ -12,8 +12,7 @@
   align-items: center;
 }
 
-.navItem {
-  color: var(--main-color);
+.navItem {  
   font-size: 0.8rem;
   font-weight: 200;
   border-radius: 0.2rem;
@@ -30,10 +29,14 @@
 
 .hamburgerIcon {
   filter: invert(50%) sepia(23%) saturate(7259%) hue-rotate(332deg) brightness(96%) contrast(111%);    
-  position: fixed;
+  position: absolute; 
   top: 1rem;
-  right: 1rem;  
+  right: 0;  
   margin: 0.2rem;
+}
+
+.active {
+  color: #01ffdd !important;
 }
 
 

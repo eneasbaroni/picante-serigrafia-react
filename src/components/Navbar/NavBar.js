@@ -1,11 +1,11 @@
 import "./navBar.css"
 import hamburger from "../../assets/hamburger.svg"
 import { useEffect, useState } from "react"
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 const NavItem = ({page}) => {
   return (
-    <Link to={`/${page}`} className="navItem">{`${page.toUpperCase()}`}</Link>
+    <NavLink to={`/${page}`}  className="navItem">{`${page.toUpperCase()}`}</NavLink>
   )
 }
 

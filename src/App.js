@@ -3,6 +3,9 @@ import './App.css';
 import "./grid.css"
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
+import Footer from './components/Footer/Footer';
+import Galeria from './components/Galeria/Galeria';
+import SubGaleriaContainer from './components/SubGaleria/SubGaleriaContainer';
 
 function App() {
   return (
@@ -11,7 +14,11 @@ function App() {
         <Header/>
         <Routes>
           <Route path='/' element={<Home/>} />  
+          <Route path='/home' element={<Home/>} />  
+          <Route path='/galeria' element={<Galeria/>} />  
+          <Route path='/galeria/:galery' element={<SubGaleriaContainer/>} />  
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   );
