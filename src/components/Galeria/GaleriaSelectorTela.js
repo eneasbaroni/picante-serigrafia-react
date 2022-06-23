@@ -19,8 +19,8 @@ const GaleriaSelectorTela = () => {
   return (
     <div className="pt-3 ps-2 col-12 col-md-6" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
       {hover
-        ? <Link to={`/galeria/tela`} ><div className="galeriaSeleccion" style={{backgroundImage: `url(${urlTela})`}} ><p> TRABAJOS </p> <p> EN </p> <p className="bold">TELA</p></div></Link>
-        : <Link to={`/galeria/tela`}><div className="galeriaSeleccion" style={{backgroundImage: `url(${urlTelaHover})`}}>  <p>TRABAJOS </p> <p> EN </p> <p className="bold">TELA</p></div></Link>
+        ? <Link to={`/galeria/tela`} ><div className="galeriaSeleccion" style={{backgroundImage: `url(${urlTelaHover})`}} ><p> TRABAJOS </p> <p> EN </p> <p className="bold">TELA</p></div></Link>
+        : <Link to={`/galeria/tela`}><div className="galeriaSeleccion" style={{backgroundImage: `url(${urlTela})`}}>  <p>TRABAJOS </p> <p> EN </p> <p className="bold">TELA</p></div></Link>
       }
     </div>
     

@@ -11,12 +11,6 @@
   margin: 0 auto;
 }
 
-.formCabecera h1{
-  font-size: 3.75rem;
-  font-weight: 100;
-  line-height: 4rem;
-}
-
 .formulario {
   border: solid #ff4b44 1px; 
   margin: 0 auto;
@@ -27,4 +21,20 @@
 .formulario legend strong {
   font-size: 1.5rem;
   font-weight: 400;
+}
+
+.formulario select {
+  display: block;
+  
+}
+
+.enviarBtn {
+  cursor: pointer;
+  border: none;
+}
+
+.enviarBtnDesabilitado {
+  background-color: grey;
+  color: Black;
+  border: none;
 }

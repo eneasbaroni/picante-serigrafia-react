@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="homeContainer container-fluid">
        <div className="row align-items-center">
-          <div className="col-12 col-md-6 text-center text-md-start mainText">
+          <div className="col-12 col-md-6 text-center text-md-start titulo">
               <h1 className="mb-3">BIENVENIDOS A <div>PICANTE</div></h1>            
               <p>Picante es un taller de serigrafía que apunta a los diseños y proyectos únicos, singulares y puros.</p>             
               <p>Además también funcionamos como una pequeña marca de indumentaria y accesorios con estilo único con estampados hechos con serigrafía. </p>

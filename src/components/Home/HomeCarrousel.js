@@ -32,7 +32,7 @@ const HomeCarrousel = () => {
   }, [indexImg]) 
 
   return (
-    <div className="carrouselContainer row">
+    <div className="carrouselContainer mt-5 row">
       <img style={{opacity: visible}} className=" carrouselImg col-12 " src={imgagesCarrousel[indexImg]} alt="carrouselImagen"/>
     </div>
   )

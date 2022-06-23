@@ -1,0 +1,40 @@
+:root {
+  --main-color: #ff4b44;
+  --second-color: #adf153;
+  --third-color: #ff4b44;
+  --main-bg: linear-gradient(#2b2b3a, #573e58);
+  --second-bg: #ff4a4460;
+  --main-boder: solid (var(--main-color)) 1px;
+}
+
+
+.nosotrosContainer {
+  background-color: var(--second-bg);  
+  min-height: calc(100vh - 10rem);
+
+}
+
+.nosotrosContainer img{
+  width: 100%;
+  justify-self: center;
+  align-self: center;
+  padding: 1rem;
+  border-right: solid #ff4b44 1px;
+}
+
+.nosotrosTexto {
+  padding: 1rem;
+}
+
+.nosotrosTexto p{
+  text-align: justify;
+}
+
+@media screen and  (max-width: 767px) {
+  .nosotrosContainer img{
+    
+    border-bottom: solid #ff4b44 1px;
+    border-right: none;
+  }
+
+}

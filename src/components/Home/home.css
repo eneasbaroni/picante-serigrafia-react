@@ -7,17 +7,6 @@
   --main-boder: solid (var(--main-color)) 1px;
 }
 
-
-.mainText h1 {
-  font-size: 3.75rem;
-  font-weight: 100;
-  line-height: 4rem;
-}
-.mainText h1 div {
-  font-size: 5rem;
-  font-weight: 900;
-}
-
 #logo img {
   animation-name: efecto_logo;  
   animation-iteration-count: infinite;
@@ -25,8 +14,8 @@
   animation-delay: 2s
 }
 
-.carrouselImg {
-  height: 600px;
+.carrouselImg{
+  height: 800px;
   object-fit: cover;
   transition: all 0.5s ease-in-out;
 }
@@ -48,10 +37,6 @@
   .mainText h1 div {
     font-size: 3.85rem;
     font-weight: 900;  
-  }
-
-  .carrouselImg {
-    height: 400px;    
   }  
 
 }
@@ -72,5 +57,9 @@
     font-size: 2.7rem;
     font-weight: 700; 
   }
+
+  /* .carrouselImg {
+    height: 400px;    
+  }   */
 
 }

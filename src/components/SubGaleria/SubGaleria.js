@@ -22,8 +22,7 @@ const SubGaleria = ({galeria, name}) => {
 
   return (  
     <div className="row">
-      <div className="col-12 row imgContainer">
-        <h1 className="col-12"> Papel</h1>
+      <div className="col-12 row imgContainer">        
         <img className="galeryImg col-4" src={`/Images/${name}/${galeria[0].src}`} alt={galeria[0].alt} onClick={handleClick}/>
         <img className="galeryImg col-2" src={`/Images/${name}/${galeria[1].src}`} alt={galeria[1].alt} onClick={handleClick}/>
         <img className="galeryImg col-2" src={`/Images/${name}/${galeria[2].src}`} alt={galeria[2].alt} onClick={handleClick}/>

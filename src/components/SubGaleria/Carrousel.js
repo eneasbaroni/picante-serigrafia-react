@@ -68,7 +68,7 @@ const Carrousel = ({galeria, name}) => {
       
       <img className="previous" height={16} src={previous} alt="previous" onClick={handlePrevious}/> 
       <img className="next" height={16} src={next} alt="next"  onClick={handleNext}/>        
-      <img style={{opacity: visible}} className="carrouselImg col-12" src={`/Images/${name}/${galeria[indexImg].src}`} alt={galeria[indexImg].alt} />
+      <img style={{opacity: visible}} className="carrouseleImg col-12" src={`/Images/${name}/${galeria[indexImg].src}`} alt={galeria[indexImg].alt} />
     </div>
   )
 }

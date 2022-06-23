@@ -52,15 +52,24 @@ const SubGaleriaContainer = () => {
 
   const volverAGaleria = () => navigate(-1); 
 
-
-
   return (
     <>
     {loading
       ?<h1>cargando.....</h1>
-      :(windowSize > 768 
-        ?<SubGaleria galeria={galeria} name={name}/>
-        :<Carrousel galeria={galeria} name={name}/>)
+
+      :(
+        <>
+          <div className="col-12 titulo galeriaTitulo">
+            <h1 className="pt-1 pt-md-3 pb-2 pb-md-4 mb-2">TRABAJOS EN<div>{name.toUpperCase()}</div></h1>
+          </div>
+          {
+            windowSize > 768 
+            ?<SubGaleria galeria={galeria} name={name}/>
+            :<Carrousel galeria={galeria} name={name}/>
+          }
+        </>
+      )
+        
     }
     <div className="botonVolver col-12 text-center" onClick={volverAGaleria}>Volver A Galería</div>
   </>
