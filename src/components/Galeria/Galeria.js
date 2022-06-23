@@ -4,7 +4,7 @@ import GaleriaSelectorTela from "./GaleriaSelectorTela"
 
 const Galeria = () => {
   return (
-    <div className="container-fluid justify-content-center ">
+    <div className="divContainer container-fluid justify-content-center ">
       <div className="row justify-content-around "> 
       <GaleriaSelectorPapel/>
       <GaleriaSelectorTela/>

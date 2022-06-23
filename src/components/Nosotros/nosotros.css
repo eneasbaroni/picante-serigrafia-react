@@ -8,10 +8,13 @@
 }
 
 
-.nosotrosContainer {
-  background-color: var(--second-bg);  
-  min-height: calc(100vh - 10rem);
+.nosotrosContainer {    
+  min-height: calc(100vh - 11rem);
+}
 
+.nosotros {
+  background-color: var(--second-bg);    
+  height: auto;
 }
 
 .nosotrosContainer img{

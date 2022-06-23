@@ -53,7 +53,7 @@ const SubGaleriaContainer = () => {
   const volverAGaleria = () => navigate(-1); 
 
   return (
-    <>
+    <div className="divContainer">
     {loading
       ?<h1>cargando.....</h1>
 
@@ -72,7 +72,7 @@ const SubGaleriaContainer = () => {
         
     }
     <div className="botonVolver col-12 text-center" onClick={volverAGaleria}>Volver A Galería</div>
-  </>
+  </div>
     
   )
 }

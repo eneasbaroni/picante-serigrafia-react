@@ -67,7 +67,7 @@ const Presupuesto = () => {
 
 
   return (
-    <div>
+    <div className="divContainer">
       <div className="titulo formCabecera col-12 col-md-8 my-3">
         <h1>PRESUPUESTO</h1>
         <p>Para que podamos hacerte un correcto presupuesto, necesitamos que nos completes el formulario a continuación. Luego de que nos envíes el formulario nos pondremos en contacto para aclarar dudas y enviarte el presupuesto</p>

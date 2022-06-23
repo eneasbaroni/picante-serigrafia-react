@@ -58,7 +58,7 @@ const FeriaFormulario = () => {
 
 
   return (
-    <div>
+    <div className="divContainer">
       <div className="formCabecera col-12 col-md-8 my-3">
         <p>Si queres formar parte de la proxima feria picante llena el siguiente formulario</p>
       </div>

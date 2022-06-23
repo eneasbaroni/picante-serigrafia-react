@@ -55,7 +55,7 @@ const Contacto = () => {
   }
 
   return (
-    <div>
+    <div className="divContainer">
       <div className="titulo col-12 col-md-8 mx-auto">
         <h1>CONTACTANOS</h1>
       </div>
