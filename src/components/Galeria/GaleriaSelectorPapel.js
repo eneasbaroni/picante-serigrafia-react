@@ -19,8 +19,7 @@ const GaleriaSelectorPapel = () => {
   }
 
   const handleLoad = () => {
-    setLoading(false);
-  
+    setLoading(false);  
   }
 
   
