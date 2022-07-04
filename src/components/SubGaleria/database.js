@@ -12,8 +12,8 @@ const dataBase = {
     {nombre:"Imagen 10",src:"p10.jpg",alt:"Papel_10"},
     {nombre:"Imagen 11",src:"p11.jpg",alt:"Papel_11"},
     {nombre:"Imagen 12",src:"p12.jpg",alt:"Papel_12"},
-    {nombre:"Imagen 13",src:"p13.jpg",alt:"Papel_13"}
-    //{nombre:"Imagen 14",src:"p14.jpg",alt:"Papel_14"},
+    {nombre:"Imagen 13",src:"p13.jpg",alt:"Papel_13"},
+    {nombre:"Imagen 14",src:"p14.jpg",alt:"Papel_14"}
     //{nombre:"Imagen 15",src:"p15.jpg",alt:"Papel_15"},
     //{nombre:"Imagen 16",src:"p16.jpg",alt:"Papel_16"},
     //{nombre:"Imagen 17",src:"p17.jpg",alt:"Papel_17"},
@@ -45,8 +45,8 @@ const dataBase = {
     {nombre:"Imagen 10",src:"f10.jpg",alt:"Feria_10"},
     {nombre:"Imagen 11",src:"f11.jpg",alt:"Feria_11"},
     {nombre:"Imagen 12",src:"f12.jpg",alt:"Feria_12"},
-    {nombre:"Imagen 13",src:"f13.jpg",alt:"Feria_13"}
-    //{nombre:"Imagen 14",src:"f14.jpg",alt:"Feria_14"},
+    {nombre:"Imagen 13",src:"f13.jpg",alt:"Feria_13"},
+    {nombre:"Imagen 14",src:"f14.jpg",alt:"Feria_14"}
     //{nombre:"Imagen 15",src:"f15.jpg",alt:"Feria_15"}
   ],
   tela: [
@@ -62,8 +62,8 @@ const dataBase = {
     {nombre:"Imagen 10",src:"ta10.jpg",alt:"Al_Agua_10"},
     {nombre:"Imagen 11",src:"ta11.jpg",alt:"Al_Agua_11"},
     {nombre:"Imagen 12",src:"ta12.jpg",alt:"Al_Agua_12"},
-    {nombre:"Imagen 13",src:"ta13.jpg",alt:"Al_Agua_13"}
-    //{nombre:"Imagen 14",src:"ta14.jpg",alt:"Al_Agua_14"},
+    {nombre:"Imagen 13",src:"ta13.jpg",alt:"Al_Agua_13"},
+    {nombre:"Imagen 14",src:"ta14.jpg",alt:"Al_Agua_14"}
     //{nombre:"Imagen 15",src:"ta15.jpg",alt:"Al_Agua_15"},
     //{nombre:"Imagen 16",src:"ta16.jpg",alt:"Al_Agua_16"},
     //{nombre:"Imagen 17",src:"ta17.jpg",alt:"Al_Agua_17"},
