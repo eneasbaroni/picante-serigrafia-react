@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
+import Loader from "../Loader/Loader";
 
 
 const HomeCarrousel = () => {
+  const [loading, setLoading] = useState(true)
   const [indexImg, setIndexImg] = useState(0)
   const [visible, setVisible] = useState(1)
   
@@ -31,9 +33,22 @@ const HomeCarrousel = () => {
   // eslint-disable-next-line
   }, [indexImg]) 
 
+  const handleLoad = () => {
+    setLoading(false);    
+  }
+
   return (
     <div className="carrouselContainer mt-5 row">
-      <img style={{opacity: visible}} className=" carrouselImg col-12 " src={imgagesCarrousel[indexImg]} alt="carrouselImagen"/>
+      <img style={{display: "none"}} className=" carrouselImg col-12 " src={imgagesCarrousel[0]} alt="preload"/>
+      <img style={{display: "none"}} className=" carrouselImg col-12 " src={imgagesCarrousel[1]} alt="preload"/>
+      <img style={{display: "none"}} className=" carrouselImg col-12 " src={imgagesCarrousel[2]} alt="preload" onLoad={handleLoad}/>
+
+      {loading 
+        ?
+          <Loader/>
+        :
+          <img style={{opacity: visible}} className=" carrouselImg col-12 " src={imgagesCarrousel[indexImg]} alt="carrouselImagen"/>
+      }
     </div>
   )
 }
