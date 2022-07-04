@@ -12,25 +12,25 @@ const dataBase = {
     {nombre:"Imagen 10",src:"p10.jpg",alt:"Papel_10"},
     {nombre:"Imagen 11",src:"p11.jpg",alt:"Papel_11"},
     {nombre:"Imagen 12",src:"p12.jpg",alt:"Papel_12"},
-    {nombre:"Imagen 13",src:"p13.jpg",alt:"Papel_13"},
-    {nombre:"Imagen 14",src:"p14.jpg",alt:"Papel_14"},
-    {nombre:"Imagen 15",src:"p15.jpg",alt:"Papel_15"},
-    {nombre:"Imagen 16",src:"p16.jpg",alt:"Papel_16"},
-    {nombre:"Imagen 17",src:"p17.jpg",alt:"Papel_17"},
-    {nombre:"Imagen 18",src:"p18.jpg",alt:"Papel_18"},
-    {nombre:"Imagen 19",src:"p19.jpg",alt:"Papel_19"},
-    {nombre:"Imagen 20",src:"p20.jpg",alt:"Papel_20"},
-    {nombre:"Imagen 21",src:"p21.jpg",alt:"Papel_21"},
-    {nombre:"Imagen 22",src:"p22.jpg",alt:"Papel_22"},
-    {nombre:"Imagen 23",src:"p23.jpg",alt:"Papel_23"},
-    {nombre:"Imagen 24",src:"p24.jpg",alt:"Papel_24"},
-    {nombre:"Imagen 25",src:"p25.jpg",alt:"Papel_25"},
-    {nombre:"Imagen 26",src:"p26.jpg",alt:"Papel_26"},
-    {nombre:"Imagen 27",src:"p27.jpg",alt:"Papel_27"},
-    {nombre:"Imagen 29",src:"p29.jpg",alt:"Papel_29"},
-    {nombre:"Imagen 29",src:"p29.jpg",alt:"Papel_29"},
-    {nombre:"Imagen 30",src:"p30.jpg",alt:"Papel_30"},
-    {nombre:"Imagen 31",src:"p31.jpg",alt:"Papel_31"}
+    {nombre:"Imagen 13",src:"p13.jpg",alt:"Papel_13"}
+    //{nombre:"Imagen 14",src:"p14.jpg",alt:"Papel_14"},
+    //{nombre:"Imagen 15",src:"p15.jpg",alt:"Papel_15"},
+    //{nombre:"Imagen 16",src:"p16.jpg",alt:"Papel_16"},
+    //{nombre:"Imagen 17",src:"p17.jpg",alt:"Papel_17"},
+    //{nombre:"Imagen 18",src:"p18.jpg",alt:"Papel_18"},
+    //{nombre:"Imagen 19",src:"p19.jpg",alt:"Papel_19"},
+    //{nombre:"Imagen 20",src:"p20.jpg",alt:"Papel_20"},
+    //{nombre:"Imagen 21",src:"p21.jpg",alt:"Papel_21"},
+    //{nombre:"Imagen 22",src:"p22.jpg",alt:"Papel_22"},
+    //{nombre:"Imagen 23",src:"p23.jpg",alt:"Papel_23"},
+    //{nombre:"Imagen 24",src:"p24.jpg",alt:"Papel_24"},
+    //{nombre:"Imagen 25",src:"p25.jpg",alt:"Papel_25"},
+    //{nombre:"Imagen 26",src:"p26.jpg",alt:"Papel_26"},
+    //{nombre:"Imagen 27",src:"p27.jpg",alt:"Papel_27"},
+    //{nombre:"Imagen 29",src:"p29.jpg",alt:"Papel_29"},
+    //{nombre:"Imagen 29",src:"p29.jpg",alt:"Papel_29"},
+    //{nombre:"Imagen 30",src:"p30.jpg",alt:"Papel_30"},
+    //{nombre:"Imagen 31",src:"p31.jpg",alt:"Papel_31"}
   ],
   feria: [
     {nombre:"Imagen 01",src:"f01.jpg",alt:"Feria_01"},
@@ -45,9 +45,9 @@ const dataBase = {
     {nombre:"Imagen 10",src:"f10.jpg",alt:"Feria_10"},
     {nombre:"Imagen 11",src:"f11.jpg",alt:"Feria_11"},
     {nombre:"Imagen 12",src:"f12.jpg",alt:"Feria_12"},
-    {nombre:"Imagen 13",src:"f13.jpg",alt:"Feria_13"},
-    {nombre:"Imagen 14",src:"f14.jpg",alt:"Feria_14"},
-    {nombre:"Imagen 15",src:"f15.jpg",alt:"Feria_15"}
+    {nombre:"Imagen 13",src:"f13.jpg",alt:"Feria_13"}
+    //{nombre:"Imagen 14",src:"f14.jpg",alt:"Feria_14"},
+    //{nombre:"Imagen 15",src:"f15.jpg",alt:"Feria_15"}
   ],
   tela: [
     {nombre:"Imagen 01",src:"ta01.jpg",alt:"Al_Agua_01"},
@@ -62,15 +62,15 @@ const dataBase = {
     {nombre:"Imagen 10",src:"ta10.jpg",alt:"Al_Agua_10"},
     {nombre:"Imagen 11",src:"ta11.jpg",alt:"Al_Agua_11"},
     {nombre:"Imagen 12",src:"ta12.jpg",alt:"Al_Agua_12"},
-    {nombre:"Imagen 13",src:"ta13.jpg",alt:"Al_Agua_13"},
-    {nombre:"Imagen 14",src:"ta14.jpg",alt:"Al_Agua_14"},
-    {nombre:"Imagen 15",src:"ta15.jpg",alt:"Al_Agua_15"},
-    {nombre:"Imagen 16",src:"ta16.jpg",alt:"Al_Agua_16"},
-    {nombre:"Imagen 17",src:"ta17.jpg",alt:"Al_Agua_17"},
-    {nombre:"Imagen 18",src:"ta18.jpg",alt:"Al_Agua_18"},
-    {nombre:"Imagen 19",src:"ta19.jpg",alt:"Al_Agua_19"},
-    {nombre:"Imagen 20",src:"ta20.jpg",alt:"Al_Agua_20"},
-    {nombre:"Imagen 21",src:"ta21.jpg",alt:"Al_Agua_21"} 
+    {nombre:"Imagen 13",src:"ta13.jpg",alt:"Al_Agua_13"}
+    //{nombre:"Imagen 14",src:"ta14.jpg",alt:"Al_Agua_14"},
+    //{nombre:"Imagen 15",src:"ta15.jpg",alt:"Al_Agua_15"},
+    //{nombre:"Imagen 16",src:"ta16.jpg",alt:"Al_Agua_16"},
+    //{nombre:"Imagen 17",src:"ta17.jpg",alt:"Al_Agua_17"},
+    //{nombre:"Imagen 18",src:"ta18.jpg",alt:"Al_Agua_18"},
+    //{nombre:"Imagen 19",src:"ta19.jpg",alt:"Al_Agua_19"},
+    //{nombre:"Imagen 20",src:"ta20.jpg",alt:"Al_Agua_20"},
+    //{nombre:"Imagen 21",src:"ta21.jpg",alt:"Al_Agua_21"} 
   ]
 }
 
